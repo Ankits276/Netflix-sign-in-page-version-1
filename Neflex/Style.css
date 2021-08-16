@@ -1,0 +1,102 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  height: 500px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 0,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(img/bg-image.jpg);
+}
+/* #nav-container{
+    width: 100%;
+    height: 41px;
+    margin-top: 0px;
+    margin-bottom: 4px; 
+    /* background-color: blueviolet; */
+.netflix-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.netfliximage {
+  width: 210px;
+  margin-top: 44px;
+  margin-left: 45px;
+}
+#l-select {
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin-top: 25px;
+  margin-right: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+.nav-bar {
+  background-color: rgb(153, 15, 15);
+  border-radius: 4px;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin-top: 25px;
+  margin-right: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+.font-color {
+  color: white;
+}
+.para-container {
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+}
+.para1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  text-align: center;
+}
+#para2 {
+  font-size: 2rem;
+  margin-top: 12px;
+}
+#para3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.search-bar {
+  text-align: center;
+  margin-bottom: 110px;
+}
+#search {
+  height: 50px;
+  width: 350px;
+  border-style: solid;
+}
+#submit-btn {
+  height: 57px;
+  width: 202px;
+  background-color: red;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  margin-left: -5px;
+}
+.a {
+  margin-right: 10px;
+}

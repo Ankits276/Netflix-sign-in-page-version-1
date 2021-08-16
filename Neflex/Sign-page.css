@@ -1,0 +1,105 @@
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 0,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(bg-image.jpg);
+}
+#logo {
+  margin-top: 10px;
+  margin-left: 11px;
+  width: 225px;
+}
+.box {
+  box-sizing: border-box;
+  height: 650px;
+  padding: 60px;
+  width: 450px;
+  border-radius: 4px;
+  background-color: #000000bf;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+  color: white;
+}
+.f-password {
+  height: 20px;
+  width: 280px;
+  text-align: center;
+  padding: 20px;
+  margin: 6px;
+  background-color: rgb(102, 99, 99);
+}
+.h1 {
+  /* width: 180px;
+    height: 18px; */
+  color: white;
+}
+input::placeholder {
+  color: wheat;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#search {
+  width: 324px;
+  height: 36px;
+  background-color: red;
+  margin-top: 28px;
+  margin-left: 7px;
+  color: white;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.a {
+  text-decoration: none;
+  float: right;
+}
+.sign-p {
+  color: grey;
+  font-size: smaller;
+}
+
+a.learnmore {
+  color: blue;
+}
+.footerbox {
+  background-color: #000000bf;
+  padding: 20px 100px;
+  color: white;
+  margin: 0px -8px -8px -8px;
+}
+.flex-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-container1 > div {
+  color: white;
+  padding: 10px 0;
+}
+#Sign-form {
+  margin-left: 3px;
+}
+#language {
+  background-color: black;
+  color: white;
+  width: 86px;
+  height: 35px;
+  font-size: 1rem;
+}
+#fb-logo {
+  width: 60px;
+  height: 30px;
+}
+#log-fb {
+  margin-right: 10px;
+  text-decoration: none;
+}
+/* .form-remember {
+  justify-content: space-between;
+} */
